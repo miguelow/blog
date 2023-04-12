@@ -4,6 +4,7 @@ import utilStyles from '../styles/utils.module.css'
 import { getSortedPostsData } from '../lib/posts'
 import Link from 'next/link'
 import Date from '../components/date'
+import { ArrowIcon } from '../components/icons/icons'
 
 export default function Home({ allPostsData }) {
   return (
@@ -13,8 +14,15 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-          Hello, I’m <strong>Miguel</strong>. I’m a developer based in Madrid. You can contact me on{' '}
-          <a href="https://www.linkedin.com/in/miguel-ortega-ward/">Linkedin</a>.
+          Hello, I’m <strong>Miguel</strong> a developer based in Madrid. You can contact me on{' '}
+          <a href="https://www.linkedin.com/in/miguel-ortega-ward/">Linkedin
+            <ArrowIcon />
+          </a>
+          or email at {' '}
+          <a href="mailto:miguel.owd@gmail.com">miguel.owd@gmail.com
+            <ArrowIcon />
+          </a>
+
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
