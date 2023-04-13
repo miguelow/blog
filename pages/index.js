@@ -14,7 +14,7 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-          Hello, I’m <strong>Miguel</strong> a developer based in Madrid. You can contact me on{' '}
+          Hi, I’m <strong>Miguel</strong> a developer based in Madrid. You can contact me on{' '}
           <a href="https://www.linkedin.com/in/miguel-ortega-ward/">Linkedin
             <ArrowIcon />
           </a>
